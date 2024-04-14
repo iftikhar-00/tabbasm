@@ -15,7 +15,29 @@
 
 </head>
 <body>
-    <div class="header-div" id="header"></div>
+    <div class="header-div" id="header">
+        <header id="navbar-id">
+            <nav>
+              <div class="brand-logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+              </div>
+        
+              <ul id="navLinks" class="hide">
+                <li><a class="home-item" onclick="applyTab()" href="index.html">Home</a></li>
+                <li><a class="about-item" onclick="applyTab2()" href="about.html">About</a></li>
+                <li><a class="contact-item" onclick="applyTab3()" href="contact.html">Contact</a></li>
+                
+              </ul>
+        
+              <div class="menu-btn" id="menu-btn">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
+            </nav>
+            
+          </header>
+    </div>
 
     <section class="home-hero-section">
         <div class="row">
@@ -38,7 +60,7 @@
                 </div>
             </div>
             <div class="col-sm-10 col-md-7 home-hero-col">
-                <img src="Assets/images/dp.png" alt="">
+                <img src="assets/images/dp.png" alt="">
             </div>
         </div>
     </section>
@@ -46,7 +68,7 @@
     <section class="expertise-section">
         <div class="row">
             <div class="col-md-6 exp-img">
-                <img src="Assets/images/expertise.jpg" alt="">
+                <img src="assets/images/expertise.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <h1>Expertise</h1>
@@ -67,7 +89,32 @@
 
     
 
-    <div id="footer"></div>
+    <div id="footer">
+        <section class="footer">
+
+            <div class="row">
+                
+                <div class="col-sm-4 col-md-3 footer-col">
+                    <h1>Get in touch</h1>
+                    <p> Ecosystem bootstrapping learning curve lean startup disruptive.
+                        Marketing long tail disruptive agile development partner.
+                    </p>
+                    <div class="footer-icon-div">
+                        <a href="#"><i class="fa-solid fa-envelope"></i> info@tbsm.com</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i> 03001234567</a>
+                    </div>
+                </div>
+                <div class="col-sm-11 footer-policy-col">
+                    <div class="footer-line"></div>
+                    <h5>Disclaimer:</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <script src="assets/javascipt/main-script.js"></script>
