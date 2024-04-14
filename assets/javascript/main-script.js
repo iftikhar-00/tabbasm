@@ -9,7 +9,7 @@
 
 // navbar color change ---------------------------------------------
 document.addEventListener('DOMContentLoaded', function () {
-  const navbar = document.getElementById('header');
+  const navbar = document.getElementById('#header');
   
   window.addEventListener('scroll', function () {
       // Get the scroll position
