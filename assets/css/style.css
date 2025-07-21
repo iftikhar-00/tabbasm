@@ -720,6 +720,6 @@ header nav div.menu-btn .menu-bar {
 }/*# sourceMappingURL=style.css.map */
 
 .active-link {
-  background-color: #c900f1;
+    background-color: #c900f1;
     background-image: linear-gradient(to bottom right, #00FFFE, #c900f1);
 }
