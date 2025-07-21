@@ -718,3 +718,8 @@ header nav div.menu-btn .menu-bar {
     padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.active-link {
+  background-color: #c900f1;
+    background-image: linear-gradient(to bottom right, #00FFFE, #c900f1);
+}
